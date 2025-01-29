@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html', {})
+<body>
+
+    
+    <div class="wrapper wrapper_about">
+        @@include('html/header.html', {})
+        <main class="page">
+            <section id="about" class="page__about about">
+                <div class="about__container container">
+                    <h2 class="about__title title">О нашей компании</h2>
+                    <div class="about__body">
+                        <div class="about__text text">
+                            <p>
+                                Мы любим своё дело, поэтому всегда подходим к каждому клиенту с индивидуальным вниманием,
+                                 предлагаем креативные идеи для любых проектов и обеспечиваем превосходный уровень сервиса. 
+                            </p>
+                            <p>
+                                Именно благодаря этому нам доверяют сложные задачи, рекомендуют другим и снова обращаются
+                                 к нам. Доверьте нам реализацию ваших самых изысканных и технологичных идей — мы выполним всё с исключительным качеством.
+                            </p>
+                            <p>
+                                VentAlliance предлагает сертифицированные современные системы, надёжное оборудование,
+                                 высококачественные материалы и решения, которые идеально подойдут под любой бюджет.
+                            </p>
+                        </div>
+                        <div class="about__advantages advantages"> 
+                            <div class="advantages__item advantages__item_first">
+                                <div class="advantages__icon">
+                                    <img src="@img/advantages/01.svg" alt="img">
+                                </div>
+                                <div class="advantages__content">
+                                    <h3 class="advantages__title">30+ объектов реализовано</h3>
+                                    <div class="advantages__text"> Мы работаем более 20 лет на рынке инженерных систем</div>
+                                </div>
+                            </div>
+                            <div class="advantages__item advantages__item_first">
+                                <div class="advantages__icon">
+                                    <img src="@img/advantages/02.svg" alt="img">
+                                </div>
+                                <div class="advantages__content">
+                                    <h3 class="advantages__title">Гарантия от 3-х лет</h3>
+                                    <div class="advantages__text">Гарантийное и пост гарантийное обслуживание</div>
+                                </div>
+                            </div>
+                            <div class="advantages__item advantages__item_second">
+                                <div class="advantages__icon">
+                                    <img src="@img/advantages/03.svg" alt="img">
+                                </div>
+                                <div class="advantages__content">
+                                    <h3 class="advantages__title">Лучшие цены</h3>
+                                    <div class="advantages__text">Работаем с производителями оборудования на прямую</div>
+                                </div>
+                            </div>
+                            <div class="advantages__item advantages__item_second">
+                                <div class="advantages__icon">
+                                    <img src="@img/advantages/04.svg" alt="img">
+                                </div>
+                                <div class="advantages__content">
+                                    <h3 class="advantages__title">Проектирование проекта</h3>
+                                    <div class="advantages__text">Проектирование систем вентиляции и кондиционирования воздуха</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    
+    <script src="js/app.min.js"></script>
+</body>
+</html>

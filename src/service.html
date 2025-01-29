@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html', {})
+<body>
+
+    
+    <div class="wrapper wrapper_service">
+        @@include('html/header.html', {})
+        <main class="page">
+            <section class="page__service service">
+                <div class="service__container container">
+                    <div class="service__body">
+                        <div class="service__content">
+                            <h2 class="service__title title">
+                                <span>Предоставляемые услуги</span>
+                            </h2>
+                            <div class="service__text">
+                                <p>
+                                    Компания «ВентАльянс» предлагает Вам свои услуги по монтажу систем вентиляции и кондиционирования воздуха, 
+                                    а так же по техническому обслуживанию и ремонту. 
+                                </p>
+                                <p>
+                                    Мы работаем с 2004 года и зарекомендовали себя как профессионального и надежного партнера. 
+                                    Одно из основных направлений компании - проектирование, монтаж и обслуживание систем вентиляции (СВ). 
+                                    Мы предлагаем оснастить Ваше помещение современной и комфортной вентиляционной системой, 
+                                    провести ревизию и реконструкцию существующей СВ. 
+                                </p>
+                                <p>
+                                    Для ваших нужд мы располагаем широким ассортиментом бытового и профессионального вентиляционного оборудования, 
+                                    а также готовые варианты решений для небольших объемов: городских квартир, коттеджей, офисов, магазинов и т. п.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service__tabs tabs">
+                            <div class="tabs__header">
+                                <button class="tabs__button active" data-tab="ventilation">
+                                    <span class="tabs__text">Системы вентиляции</span>
+                                </button>
+                                <button class="tabs__button" data-tab="conditioning">
+                                    <span class="tabs__text">Кондиционирование</span>
+                                </button>
+                            </div>
+                            <div class="tabs__content">
+                                <div class="tab active" id="ventilation">
+                                    <div class="tab__list">
+                                        <p>Проектирование систем вентиляции любой сложности</p>
+                                        <p>Монтаж приточной вентиляции</p>
+                                        <p>Монтаж вытяжной вентиляции</p>
+                                        <p>Монтаж приточно-вытяжной вентиляции</p>
+                                        <p>Монтаж вентиляции с увлажнением воздуха</p>
+                                        <p>Монтаж вентиляции с рекуператором</p>
+                                    </div>
+                                    <div class="tab__image ibg">
+                                        <img src="@img/service/service.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="tab" id="conditioning">
+                                    <div class="tab__list">
+                                        <p>Проектирование систем кондиционирования</p>
+                                        <p>Монтаж сплит-систем</p>
+                                        <p>Монтаж настенных, канальных и кассетных кондиционеров</p>
+                                        <p>Обслуживание кондиционеров</p>
+                                        <p>Ремонт систем кондиционирования</p>
+                                    </div>
+                                    <div class="tab__image ibg">
+                                        <img src="@img/service/service2.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    
+    <script src="js/app.min.js"></script>
+    
+</body>
+</html>
